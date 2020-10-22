@@ -28,7 +28,7 @@ public class MountainHike extends HikingTrail {
 
     @Override
     public String toString() {
-        return super.toString() + ", Highest Altitude: " + highestAltitude + ", Difficult level: " + difficultLevel;
+        return super.toString() + ", Highest Altitude: " + highestAltitude + ", Difficult level: " + difficultLevel ;
     }
 
 }

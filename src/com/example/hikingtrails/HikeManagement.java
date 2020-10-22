@@ -182,17 +182,18 @@ public class HikeManagement {
     }
 
     //sortByName
-    public static void sortByName(){
+    public static void sortByName() {
 
-       // Comparator<HikingTrail> sortByName = (o1, o2) -> o1.getNameOfHike().compareTo(o2.getNameOfHike());
+        // Comparator<HikingTrail> sortByName = (o1, o2) -> o1.getNameOfHike().compareTo(o2.getNameOfHike());
 
         hikes.sort((o1, o2) -> o1.getNameOfHike().compareTo(o2.getNameOfHike()));
-        for(HikingTrail ht : hikes){
+        for (HikingTrail ht : hikes) {
             System.out.println(ht);
         }
     }
+
     //sortByArea
-    public static void sortByArea(){
+    public static void sortByArea() {
 
         Comparator<HikingTrail> sortByArea = new Comparator<HikingTrail>() {
             @Override
@@ -202,16 +203,16 @@ public class HikeManagement {
         };
 
         hikes.sort(sortByArea);
-        for(HikingTrail ht : hikes){
+        for (HikingTrail ht : hikes) {
             System.out.println(ht);
         }
     }
 
     //sortByNightStops
-    public static void sortByNightStops(){
+    public static void sortByNightStops() {
         SortByNightStops sortByNightStops = new SortByNightStops();
         hikes.sort(sortByNightStops);
-        for(HikingTrail ht : hikes){
+        for (HikingTrail ht : hikes) {
             System.out.println(ht);
         }
     }

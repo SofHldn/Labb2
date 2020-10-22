@@ -1,6 +1,6 @@
 package com.example.hikingtrails;
 
-public abstract class HikingTrail{
+public abstract class HikingTrail {
 
     private String nameOfHike;
     private String areaOfHike;
@@ -73,7 +73,6 @@ public abstract class HikingTrail{
                 ", Night stops:" + numberOfNightStops + " Favourite: " + fav;
 
     }
-
 
 
 }

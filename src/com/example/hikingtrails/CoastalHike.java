@@ -28,7 +28,7 @@ public class CoastalHike extends HikingTrail {
 
     @Override
     public String toString() {
-        return super.toString() + ", Connecting Sea: " + connectingSea + ", Surface: " + environment;
+        return super.toString() + ", Connecting Sea: " + connectingSea + ", Surface: " + environment ;
 
     }
 

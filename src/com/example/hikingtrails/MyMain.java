@@ -100,7 +100,7 @@ public class MyMain {
         }
     }
 
-    private static void sort(){
+    private static void sort() {
         System.out.println("How would you like to view your list? (1-4) ");
         System.out.println("\n1. Sorted by name");
         System.out.println("2. Sorted by area");
@@ -110,7 +110,7 @@ public class MyMain {
         int sortChoice = sc.nextInt();
         sc.nextLine();
 
-        switch (sortChoice){
+        switch (sortChoice) {
             case 1:
                 HikeManagement.sortByName();
                 break;
@@ -351,11 +351,11 @@ public class MyMain {
         }
     }
 
-    private static int readInt(String question){
+    private static int readInt(String question) {
         boolean loop = true;
         int number = 0;
 
-        while(loop){
+        while (loop) {
             System.out.println(question);
             try {
                 number = sc.nextInt();
